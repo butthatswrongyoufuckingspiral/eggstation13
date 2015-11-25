@@ -1,0 +1,6 @@
+<h1>Welcome to /egg/station 13!</h1>
+
+-<i>This server is running <a href="http://baystation12.net/">Baystation 12's</a> modification of the <a href="http://ss13.eu/">/tg/station13</a> SS13 code.</i>
+<br><br>
+<strong>Bugtracker:</strong> <a href="https://github.com/Baystation12/Baystation12/issues">https://github.com/Baystation12/Baystation12/issues</a><br>
+This is an engineering server, so remaining in character is not required. Make sure to read and abide by the rules and if you have any questions, feel free to adminhelp!
