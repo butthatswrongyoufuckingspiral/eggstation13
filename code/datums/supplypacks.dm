@@ -190,6 +190,7 @@ var/list/all_supply_groups = list("Supplies","Clothing","Security","Hospitality"
 					/obj/item/weapon/circuitboard/smes,
 					/obj/item/weapon/circuitboard/solar_control,
 					/obj/machinery/constructable_frame,
+					/obj/item/weapon/stock_parts/console_screen,
 					/obj/machinery/constructable_frame)
 	cost = 0
 	containertype = /obj/structure/closet/crate/engi
