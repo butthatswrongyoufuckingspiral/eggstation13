@@ -189,12 +189,38 @@ var/list/all_supply_groups = list("Supplies","Clothing","Security","Hospitality"
 					/obj/item/weapon/circuitboard/circuit_imprinter,
 					/obj/item/weapon/circuitboard/smes,
 					/obj/item/weapon/circuitboard/solar_control,
-					/obj/machinery/constructable_frame,
 					/obj/item/weapon/stock_parts/console_screen,
-					/obj/machinery/constructable_frame)
+					/obj/item/weapon/stock_parts/console_screen)
 	cost = 0
 	containertype = /obj/structure/closet/crate/engi
 	containername = "Circuitboards Crate"
+	group = "Supplies"
+
+/datum/supply_packs/canisters
+	name = "Filled Canisters"
+	contains = list(/obj/machinery/portable_atmospherics/canister/oxygen,
+					/obj/machinery/portable_atmospherics/canister/plasma,
+					/obj/machinery/portable_atmospherics/canister/nitrogen,
+					/obj/machinery/portable_atmospherics/canister/air,
+					/obj/machinery/portable_atmospherics/canister/carbon_dioxide)
+	cost = 0
+	containertype = /obj/structure/closet/crate/engi
+	containername = "Canisters Crate"
+	group = "Supplies"
+
+/datum/supply_packs/canisters
+	name = "Portable Atmos Equipment"
+	contains = list(/obj/machinery/portable_atmospherics/scrubber,
+					/obj/machinery/portable_atmospherics/scrubber,
+					/obj/machinery/space_heater/air_conditioner,
+					/obj/machinery/space_heater/air_conditioner,
+					/obj/machinery/space_heater,
+					/obj/machinery/space_heater,
+					/obj/machinery/portable_atmospherics/pump,
+					/obj/machinery/portable_atmospherics/pump)
+	cost = 0
+	containertype = /obj/structure/closet/crate/engi
+	containername = "Portable Atmos Equipment Crate"
 	group = "Supplies"
 
 /datum/supply_packs/glass50
@@ -291,7 +317,6 @@ var/list/all_supply_groups = list("Supplies","Clothing","Security","Hospitality"
 	/obj/item/device/camera_film,
 	/obj/item/device/camera_film,
 	/obj/item/weapon/storage/photo_album,
-	/obj/item/weapon/packageWrap,
 	/obj/item/weapon/reagent_containers/glass/paint/red,
 	/obj/item/weapon/reagent_containers/glass/paint/green,
 	/obj/item/weapon/reagent_containers/glass/paint/blue,
@@ -300,10 +325,7 @@ var/list/all_supply_groups = list("Supplies","Clothing","Security","Hospitality"
 	/obj/item/weapon/reagent_containers/glass/paint/black,
 	/obj/item/weapon/reagent_containers/glass/paint/white,
 	/obj/item/weapon/reagent_containers/glass/paint/remover,
-	/obj/item/mounted/poster,
-	/obj/item/weapon/wrapping_paper,
-	/obj/item/weapon/wrapping_paper,
-	/obj/item/weapon/wrapping_paper)
+	/obj/item/mounted/poster)
 	cost = 0
 	containertype = "/obj/structure/closet/crate"
 	containername = "Arts and Crafts crate"
@@ -957,7 +979,7 @@ var/list/all_supply_groups = list("Supplies","Clothing","Security","Hospitality"
 /datum/supply_packs/teg
 	contains = list(/obj/machinery/power/generator)
 	name = "Mark I Thermoelectric Generator"
-	cost = 75
+	cost = 0
 	containertype = /obj/structure/closet/crate/secure/large
 	containername = "Mk1 TEG crate"
 	group = "Engineering"
@@ -993,6 +1015,7 @@ var/list/all_supply_groups = list("Supplies","Clothing","Security","Hospitality"
 					/obj/item/weapon/reagent_containers/glass/bottle/inaprovaline,
 					/obj/item/weapon/reagent_containers/glass/bottle/stoxin,
 					/obj/item/weapon/storage/box/syringes,
+					/obj/item/weapon/storage/box/beakers,
 					/obj/item/weapon/storage/bag/chem,
 					/obj/item/weapon/storage/box/autoinjectors)
 	cost = 0

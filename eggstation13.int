@@ -10,9 +10,7 @@ PACKAGE_DME_NAME: C:\eggstation13\eggstation\eggstation13_src.zip
 LAST_COMPILE_VERSION: 508.1298
 PACKAGE_DME_START: 
 PACKAGE_TYPE: 0
-WINDOW: maps\eggstation.dmm
 PACKAGE_DME_INFO: 
-FILE: maps\eggstation.dmm
 PACKAGE_DME_DEMO: 
 PACKAGE_DMB_NAME: C:\eggstation13\eggstation\eggstation13.zip
 */
