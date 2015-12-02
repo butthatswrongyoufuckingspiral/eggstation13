@@ -2,6 +2,12 @@
 
 ---
 
+### Why does this exist?
+
+This map was created so that /egg/ could make its own station from scratch starting from a shuttle with initial supplies.
+Cargo is currently functional and will arrive at the red airlock but requires minor admin setup.
+Comms are also operational because of a telecommunications array sitting in the top left corner of the map.
+
 ### GETTING THE CODE
 The simplest way to obtain the code is using the gitlab .zip feature.
 
@@ -32,12 +38,6 @@ where the BYOND key must be in lowercase and the admin rank must be properly cap
 Finally, to start the server, run Dream Daemon and enter the path to your compiled eggstation13.dmb file.  Make sure to set the port to the one you  specified in the config.txt, and set the Security box to 'Trusted'.  Then press GO and the server should start up and be ready to join.
 
 ---
-
-### Why does this exist?
-
-This map was created so that /egg/ could make its own station from scratch starting from a shuttle with initial supplies.
-Cargo is currently functional and will arrive at the red airlock. 
-Comms are also operational because of a telecommunications array sitting in the top left corner of the map.
 
 ### UPDATING
 
